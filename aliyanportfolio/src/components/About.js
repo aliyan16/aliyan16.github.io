@@ -1,6 +1,6 @@
 import React from "react";
 import Myimage from '../images/AliyanImg.jpeg'
-import '../index.css'
+import './componentCss/About.css'
 function About(){
     return(
         <div className="about-container">

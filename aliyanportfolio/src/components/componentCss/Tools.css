@@ -1,0 +1,106 @@
+/* Tools.css */
+
+.tools-section {
+    padding: 40px 20px; /* More padding top/bottom */
+    max-width: 1200px; /* Allow more width for 2 columns */
+    margin: 0 auto;
+    background-color: #000000; /* Dark background */
+    color: #f0f0f0; /* White text */
+    min-height: 100vh; /* Ensure it takes full viewport height */
+    box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+.tools-section h2 {
+    text-align: center;
+    margin-bottom: 50px; /* More space below heading */
+    color: #007bff; /* Accent color for main heading */
+    font-size: 2.5em; /* Larger heading */
+}
+
+/* Grid for categories */
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Default: one column for mobile */
+    gap: 30px; /* Space between categories */
+}
+
+/* Individual skill category box */
+.skills-category {
+    margin-bottom: 0; /* Reset margin from previous example */
+    border: 1px solid #444; /* Darker grey border */
+    border-radius: 12px; /* Slightly more rounded corners */
+    padding: 25px; /* More padding inside */
+    background-color: #000000; /* Slightly lighter dark background for cards */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Darker shadow */
+    transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.skills-category:hover {
+    transform: translateY(-5px); /* Lift card on hover */
+}
+
+.skills-category h3 {
+    color: #ffffff; /* Green accent color for subheadings */
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Space between icon and text */
+    font-size: 1.6em; /* Larger subheading */
+    border-bottom: 1px solid #4CAF50; /* Underline effect */
+    padding-bottom: 10px;
+}
+
+.skills-category ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px; /* Space between list items */
+}
+
+.skills-category li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #3a3a3a; /* Darker background for skill tags */
+    padding: 10px 18px; /* More padding for tags */
+    border-radius: 25px; /* More rounded pill shape */
+    color: #e0e0e0; /* Lighter text for tags */
+    font-size: 1em;
+    border: 1px solid #555; /* Slightly lighter grey border for tags */
+    white-space: nowrap; /* Prevent tags from breaking text */
+}
+
+/* Adjust icon size within list items */
+.skills-category li .svg-inline--fa {
+    font-size: 1.1em; /* Adjust relative to text */
+    color: #007bff; /* Blue accent for skill icons */
+}
+
+/* Adjust category heading icon size */
+.skills-category h3 .svg-inline--fa {
+    font-size: 1.2em; /* Slightly larger for heading icons */
+    color: #fafafa; /* Match heading color */
+}
+
+
+/* Media query for larger screens (e.g., tablets and desktops) */
+@media (min-width: 768px) {
+    .skills-grid {
+        grid-template-columns: 1fr 1fr; /* Two columns */
+        gap: 40px; /* Increase gap between columns */
+    }
+
+    .tools-section h2 {
+        font-size: 3em; /* Even larger heading for desktop */
+    }
+}
+
+/* Optional: Even larger screens for 3 or 4 columns if you have many categories */
+/*
+@media (min-width: 1200px) {
+    .skills-grid {
+        grid-template-columns: repeat(3, 1fr); // Three columns
+    }
+}
+*/
