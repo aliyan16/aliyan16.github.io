@@ -1,0 +1,103 @@
+.layout {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+}
+
+/* About Component Styles */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.about-text-container {
+  flex: 1;
+  text-align: center;
+  max-width: 600px;
+}
+
+.about-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .about-container {
+    flex-direction: row;
+  }
+  
+  .about-text-container {
+    text-align: left;
+  }
+}
+
+
+/* Tools.css */
+
+.tools-section {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.tools-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.skills-category {
+    margin-bottom: 30px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.skills-category h3 {
+    color: #007bff; /* Or your preferred accent color */
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+}
+
+.skills-category ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to next line */
+    gap: 15px; /* Space between list items */
+}
+
+.skills-category li {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between icon and text in a list item */
+    background-color: #e9f5ff; /* Light background for skill tags */
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #333;
+    font-size: 0.95em;
+    border: 1px solid #cce5ff;
+}
+
+/* Adjust icon size */
+.skills-category li .svg-inline--fa {
+    font-size: 1.2em; /* Slightly larger icon */
+    color: #0056b3; /* Darker blue for icons */
+}

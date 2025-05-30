@@ -4,15 +4,18 @@ import About from '../components/About'
 import Certificates from '../components/Certificates'
 import Experience from '../components/Experience'
 import Tools from '../components/Tools'
+import Layout from "../components/layout";
 
 
 function HomePage(){
     return(
         <>
-        <About/>
-        <Tools/>
-        <Experience/>
-        <Certificates/>
+        <Layout>
+            <About/>
+            <Tools/>
+            <Experience/>
+            <Certificates/>
+        </Layout>
         </>
     )
 }
