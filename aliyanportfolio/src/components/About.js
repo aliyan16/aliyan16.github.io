@@ -1,5 +1,5 @@
 import React from "react";
-import Myimage from '../images/AliyanImg.jpeg'
+import Myimage from '../images/AliyanBg.png'
 import './componentCss/About.css'
 function About(){
     return(
