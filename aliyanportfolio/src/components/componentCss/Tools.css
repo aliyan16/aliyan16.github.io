@@ -96,6 +96,24 @@
     }
 }
 
+
+/* Add to your existing Tools.css */
+.skills-category svg {
+    margin-right: 8px;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+}
+
+/* Fiverr icon color */
+.skills-category li svg[data-icon="si-fiverr"] {
+    color: #1DBF73;
+}
+
+/* CompTIA icon color */
+.skills-category li svg[data-icon="si-comptia"] {
+    color: #D22128;
+}
 /* Optional: Even larger screens for 3 or 4 columns if you have many categories */
 /*
 @media (min-width: 1200px) {

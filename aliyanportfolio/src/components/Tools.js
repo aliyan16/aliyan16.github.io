@@ -1,45 +1,36 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// No need to import '../index.css' here if you create a specific Tools.css
-// If you want to keep global styles in index.css, just ensure it's imported in App.js or main entry point.
-// For component-specific styles, it's better to import './Tools.css'
-import './componentCss/Tools.css'
-
-// Import specific brand icons (fab for Font Awesome Brands)
+import './componentCss/Tools.css';
+// Import from centralized icons file
 import {
-    faPython,
-    faReact,
-    faHtml5,
-    faCss3Alt,
-    faJs,
-    faDocker,
-    faGitAlt,
-    faGithub,
-    faWordpress,
-    faShopify,
-    faFigma // Common for UI/UX, though not explicitly in resume, good to have if you use it for UI/UX design.
-} from '@fortawesome/free-brands-svg-icons';
-
-// Import specific solid icons (fas for Font Awesome Solid)
-import {
-    faBrain,
-    faDatabase,
-    faFlask,
-    faMobileAlt,
-    faChartBar,
-    faCogs,
-    faFileCode,
-    faCodeBranch,
-    faCloud,
-    faVial
-} from '@fortawesome/free-solid-svg-icons';
+  faPython,
+  faReact,
+  faHtml5,
+  faCss3Alt,
+  faJs,
+  faDocker,
+  faGitAlt,
+  faGithub,
+  faWordpress,
+  faShopify,
+  faBrain,
+  faDatabase,
+  faFlask,
+  faMobileAlt,
+  faChartBar,
+  faCogs,
+  faFileCode,
+  faCodeBranch,
+  faCloud,
+  faVial
+} from '../utils/icons'; // Adjust path as needed
 
 function Tools() {
     return (
-        <div className="tools-section">
-            <h2>My Skills & Tools</h2>
+        <div className="tools-section" id="skills">
+            <h2 className="section-title">My Skills & Tools</h2>
 
-            <div className="skills-grid"> {/* New wrapper for grid layout */}
+            <div className="skills-grid">
                 <div className="skills-category">
                     <h3><FontAwesomeIcon icon={faBrain} /> Machine Learning & Deep Learning</h3>
                     <ul>
@@ -89,6 +80,7 @@ function Tools() {
                     <h3><FontAwesomeIcon icon={faDatabase} /> Databases & Backend</h3>
                     <ul>
                         <li><FontAwesomeIcon icon={faDatabase} /> SQL (MySQL, PostgreSQL)</li>
+                        <li><FontAwesomeIcon icon={faDatabase} /> MongoDB</li>
                         <li><FontAwesomeIcon icon={faFileCode} /> HTTP/API Integration (Django REST Framework, Fetch, Axios)</li>
                     </ul>
                 </div>
@@ -111,7 +103,7 @@ function Tools() {
                         <li><FontAwesomeIcon icon={faCloud} /> Model Monitoring & Deployment</li>
                     </ul>
                 </div>
-                {/* You could add other general programming skills or tools here as well */}
+
                 <div className="skills-category">
                     <h3><FontAwesomeIcon icon={faFileCode} /> Programming Languages & Tools</h3>
                     <ul>
@@ -121,7 +113,7 @@ function Tools() {
                         <li><FontAwesomeIcon icon={faFileCode} /> OS Module</li>
                     </ul>
                 </div>
-            </div> {/* End of skills-grid */}
+            </div>
         </div>
     );
 }
