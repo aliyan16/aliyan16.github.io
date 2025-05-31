@@ -13,7 +13,8 @@ import {
   faGithub,
   faWordpress,
   faShopify,
-  faFigma
+  faFigma,
+  faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 
 // Import solid icons
@@ -40,6 +41,7 @@ library.add(
   faDocker,
   faGitAlt,
   faGithub,
+  faLinkedin,
   faWordpress,
   faShopify,
   faFigma,
@@ -66,6 +68,7 @@ export {
   faDocker,
   faGitAlt,
   faGithub,
+  faLinkedin,
   faWordpress,
   faShopify,
   faFigma,

@@ -5,6 +5,7 @@ import Certificates from '../components/Certificates'
 import Experience from '../components/Experience'
 import Tools from '../components/Tools'
 import Layout from "../components/layout";
+import Contact from "../components/Contact";
 
 
 function HomePage(){
@@ -14,7 +15,8 @@ function HomePage(){
             <About/>
             <Tools/>
             <Experience/>
-            <Certificates/>
+            <Contact/>
+            
         </Layout>
         </>
     )

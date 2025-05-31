@@ -1,11 +1,17 @@
 import React from "react";
+import '../App.css'
+import Layout from "../components/layout";
 
 function Projects(){
     return(
         <>
-        <p>
-            these r my projects
-        </p>
+        <Layout>
+            <div className="Projects-page">
+                <h4>
+                    Projects to be Displayed Soon
+                </h4>
+        </div>
+        </Layout>
         </>
     )
 }
