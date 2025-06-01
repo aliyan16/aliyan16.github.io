@@ -37,6 +37,8 @@
 
 .skills-category:hover {
     transform: translateY(-5px); /* Lift card on hover */
+    box-shadow: 0 4px 10px gold; /* Darker shadow */
+    cursor: pointer;
 }
 
 .skills-category h3 {
@@ -48,6 +50,9 @@
     font-size: 1.6em; /* Larger subheading */
     border-bottom: 1px solid #4CAF50; /* Underline effect */
     padding-bottom: 10px;
+}
+.skills-category h3:hover{
+    color: gold;
 }
 
 .skills-category ul {
@@ -73,6 +78,10 @@
 .skills-category li:hover{
     background-color: gold;
     cursor: pointer;
+    color: #000000;
+}
+.skills-category li .svg-inline--fa:hover{
+    color: #000000;
 }
 
 /* Adjust icon size within list items */
