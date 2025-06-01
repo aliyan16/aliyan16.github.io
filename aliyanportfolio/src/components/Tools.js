@@ -81,7 +81,7 @@ function Tools() {
                     <ul>
                         <li><FontAwesomeIcon icon={faDatabase} /> SQL (MySQL, PostgreSQL)</li>
                         <li><FontAwesomeIcon icon={faDatabase} /> MongoDB</li>
-                        <li><FontAwesomeIcon icon={faFileCode} /> HTTP/API Integration (Django REST Framework, Fetch, Axios)</li>
+                        <li><FontAwesomeIcon icon={faFileCode} /> HTTP/API Integration <br/> (Django REST Framework,<br/>  Fetch, Axios)</li>
                     </ul>
                 </div>
 
@@ -90,7 +90,7 @@ function Tools() {
                     <ul>
                         <li><FontAwesomeIcon icon={faGitAlt} /> Git</li>
                         <li><FontAwesomeIcon icon={faGithub} /> GitHub</li>
-                        <li><FontAwesomeIcon icon={faCodeBranch} /> DVC (Data Version Control)</li>
+                        <li><FontAwesomeIcon icon={faCodeBranch} /> DVC<br/> (Data Version Control)</li>
                     </ul>
                 </div>
 
@@ -100,7 +100,7 @@ function Tools() {
                         <li><FontAwesomeIcon icon={faVial} /> MLflow</li>
                         <li><FontAwesomeIcon icon={faDocker} /> Docker (Learning)</li>
                         <li><FontAwesomeIcon icon={faCogs} /> CI/CD Pipelines</li>
-                        <li><FontAwesomeIcon icon={faCloud} /> Model Monitoring & Deployment</li>
+                        <li><FontAwesomeIcon icon={faCloud} /> Model Monitoring<br/> & Deployment</li>
                     </ul>
                 </div>
 
@@ -110,6 +110,7 @@ function Tools() {
                         <li><FontAwesomeIcon icon={faPython} /> Python</li>
                         <li><FontAwesomeIcon icon={faJs} /> JavaScript</li>
                         <li><FontAwesomeIcon icon={faFileCode} /> C++</li>
+                        <li><FontAwesomeIcon icon={faFileCode} /> Java</li>
                         <li><FontAwesomeIcon icon={faFileCode} /> OS Module</li>
                     </ul>
                 </div>

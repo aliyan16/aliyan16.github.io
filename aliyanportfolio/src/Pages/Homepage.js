@@ -15,6 +15,7 @@ function HomePage(){
             <About/>
             <Tools/>
             <Experience/>
+            {/* <Certificates/> */}
             <Contact/>
             
         </Layout>

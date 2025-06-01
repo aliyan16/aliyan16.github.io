@@ -12,6 +12,8 @@
 
 .tools-section h2 {
     text-align: center;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 50px; /* More space below heading */
     color: #ffffff; /* Accent color for main heading */
     font-size: 2.5em; /* Larger heading */
@@ -51,8 +53,10 @@
     border-bottom: 1px solid #4CAF50; /* Underline effect */
     padding-bottom: 10px;
 }
-.skills-category h3:hover{
+.skills-category h3:hover,
+.skills-category h3:hover svg{
     color: gold;
+    fill: gold;
 }
 
 .skills-category ul {
@@ -128,10 +132,60 @@
     color: #D22128;
 }
 /* Optional: Even larger screens for 3 or 4 columns if you have many categories */
-/*
-@media (min-width: 1200px) {
+
+/* Default mobile-first styles (1 column) */
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+/* For screens between 768px and 1099px - still 1 column */
+@media (min-width: 768px) and (max-width: 1099px) {
     .skills-grid {
-        grid-template-columns: repeat(3, 1fr); // Three columns
+        grid-template-columns: 1fr;
     }
 }
-*/
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .skills-grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .skills-category {
+        width: 300px;
+}
+}
+@media (min-width: 200px) and (max-width: 399px) {
+    .skills-grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .skills-category {
+        width: 200px;
+    }
+    .skills-category li{
+        font-size: smaller;
+    }
+}
+
+/* For screens 1100px and up - 2 columns */
+@media (min-width: 1100px) {
+    .skills-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+}
+
+/* For very large screens - 3 columns */
+@media (min-width: 1400px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

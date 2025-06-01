@@ -40,3 +40,37 @@
     align-items: center;
     gap: 15px;
 }
+
+/* For very small screens (200px-399px) */
+@media (min-width: 200px) and (max-width: 399px) {
+    .Contact-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns */
+        gap: 8px; /* Smaller gap */
+    }
+    
+    .Contact-card {
+        padding: 10px; /* Smaller padding */
+        min-width: 0; /* Allow cards to shrink */
+    }
+    
+    .Contact-content {
+        flex-direction: column; /* Stack icon and text vertically */
+        gap: 5px; /* Smaller gap */
+        text-align: center;
+    }
+    
+    .Contact-content svg {
+        font-size: 2rem; /* Smaller icons */
+    }
+    
+    .Contact-content span {
+        font-size: 0.8rem; /* Smaller text */
+    }
+}
+
+/* For medium-small screens (400px-599px) */
+@media (min-width: 400px) and (max-width: 599px) {
+    .Contact-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    }
+}
