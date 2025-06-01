@@ -70,11 +70,15 @@
     border: 1px solid #555; /* Slightly lighter grey border for tags */
     white-space: nowrap; /* Prevent tags from breaking text */
 }
+.skills-category li:hover{
+    background-color: gold;
+    cursor: pointer;
+}
 
 /* Adjust icon size within list items */
 .skills-category li .svg-inline--fa {
     font-size: 1.1em; /* Adjust relative to text */
-    color: #007bff; /* Blue accent for skill icons */
+    color: #ffffff; /* Blue accent for skill icons */
 }
 
 /* Adjust category heading icon size */
