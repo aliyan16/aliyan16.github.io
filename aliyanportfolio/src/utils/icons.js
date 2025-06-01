@@ -15,12 +15,13 @@ import {
   faShopify,
   faFigma,
   faLinkedin,
-  faDiscord
+  faDiscord,
 } from '@fortawesome/free-brands-svg-icons';
 
 // Import solid icons
 import {
   faBrain,
+  faDownload,
   faDatabase,
   faFlask,
   faMobileAlt,
@@ -48,6 +49,7 @@ library.add(
   faShopify,
   faFigma,
   faBrain,
+  faDownload,
   faDatabase,
   faFlask,
   faMobileAlt,
@@ -76,6 +78,7 @@ export {
   faShopify,
   faFigma,
   faBrain,
+  faDownload,
   faDatabase,
   faFlask,
   faMobileAlt,

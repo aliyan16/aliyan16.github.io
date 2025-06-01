@@ -8,7 +8,7 @@
   top: 0;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.6);
 }
 
 .navbar {
@@ -18,6 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -25,9 +26,11 @@
   font-weight: bold;
   letter-spacing: 1px;
   transition: transform 0.2s ease-in-out;
+  white-space: nowrap;
 }
-.logo:hover{
-  transform: translateY(-5px); /* Lift card on hover */
+
+.logo:hover {
+  transform: translateY(-5px);
   cursor: pointer;
   color: gold;
 }
@@ -36,6 +39,8 @@
   list-style: none;
   display: flex;
   gap: 30px;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links li a {
@@ -44,8 +49,95 @@
   font-size: 1rem;
   font-weight: 500;
   transition: color 0.3s ease;
+  white-space: nowrap;
 }
 
 .nav-links li a:hover {
-  color: gold; /* DodgerBlue */
+  color: gold;
+}
+
+.download-btn {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.download-btn:hover {
+  /* background-color: rgb(255, 255, 255); */
+  transform: translateY(-2px);
+  color: gold;
+}
+
+.download-icon {
+  font-size: 0.9rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 15px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    display: none; /* Hidden by default, will be toggled */
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    padding: 10px 0;
+  }
+
+  .download-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .nav-links li a {
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile menu toggle button (add this to your HTML/JSX) */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
 }
