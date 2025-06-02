@@ -1,8 +1,8 @@
 // src/pages/Projects.js
 import React from "react";
 import Layout from "../components/layout";
-import ProjectCard from "../components/ProjectsCards";
-import projects from "../components/projectsData";
+import ProjectCard from "../components/ProjectsCards.js";
+import projects from "../components/projectsData.js";
 import '../components/componentCss/projects.css'; // optional
 
 function Projects() {
