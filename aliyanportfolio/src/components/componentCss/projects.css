@@ -1,0 +1,49 @@
+.project-card {
+  position: relative;
+  width: 300px;
+  margin: 1rem;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  position: relative;
+}
+.card-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project-card:hover .card-hover {
+  opacity: 1;
+}
+.tool-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 0.5rem;
+}
+.tool-icons img {
+  width: 24px;
+  height: 24px;
+}

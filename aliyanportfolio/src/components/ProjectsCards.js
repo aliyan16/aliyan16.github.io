@@ -1,6 +1,6 @@
 // src/components/ProjectCard.js
 import React from "react";
-import './ProjectCard.css'; // Create this for styling icon hover etc.
+import './componentCss/projects.css'; // Create this for styling icon hover etc.
 
 function ProjectCard({ project }) {
   return (
