@@ -23,7 +23,7 @@ const projects = [
     title: "Anti-Sleep Detection System",
     image: "/images/mmd2.jpg",
     tools: ["arduino", "esp32", "opencv"],
-    description: "Real-time drowsiness detection and auto-stop system for drivers.",
+    description: "Real-time drowsiness detection and auto stop system for drivers.",
     codeLink: "https://www.linkedin.com/posts/muhammad-aliyan-b0525b26b_automotive-black-box-with-incident-analysis-activity-7288215364172181505-2ReS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEIRLXUBNqn3izflLuzBbOK4tfkiIaZbzYE"
   },
   {
