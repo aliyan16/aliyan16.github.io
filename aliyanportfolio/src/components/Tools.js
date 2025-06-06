@@ -81,7 +81,7 @@ function Tools() {
           <ul>
             <SkillItem icon={<FontAwesomeIcon icon={faMobileAlt} />} label="Flutter" />
             <SkillItem icon={<DartIcon />} label="Dart" />
-            <SkillItem icon={<FontAwesomeIcon icon={faPython} />} label="Django" />
+            <SkillItem icon={<FontAwesomeIcon icon={faDatabase} />} label="Django" />
           </ul>
         </div>
 
