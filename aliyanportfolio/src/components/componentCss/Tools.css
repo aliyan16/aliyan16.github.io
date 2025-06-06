@@ -84,20 +84,27 @@
     cursor: pointer;
     color: #000000;
 }
-.skills-category li .svg-inline--fa:hover{
-    color: #000000;
+.skill-icon {
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+  transition: color 0.3s ease, filter 0.3s ease;
 }
 
-/* Adjust icon size within list items */
-.skills-category li .svg-inline--fa {
-    font-size: 1.1em; /* Adjust relative to text */
-    color: #ffffff; /* Blue accent for skill icons */
+.skill-icon svg,
+.skill-icon img,
+.skill-icon .svg-inline--fa {
+  width: 2.5em;
+  height: 1.5em;
+  color: white;
 }
 
-/* Adjust category heading icon size */
-.skills-category h3 .svg-inline--fa {
-    font-size: 1.2em; /* Slightly larger for heading icons */
-    color: #fafafa; /* Match heading color */
+/* Hover effect for full li */
+.skills-category li:hover .skill-icon svg,
+.skills-category li:hover .skill-icon img,
+.skills-category li:hover .skill-icon .svg-inline--fa {
+  color: #000;
+  filter: brightness(0.5);
 }
 
 
