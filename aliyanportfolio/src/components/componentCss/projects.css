@@ -1,6 +1,8 @@
-.projects-container{
-    display: flex;
-    padding: 30px;
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* default: 3 columns */
+  gap: 24px;
+  padding: 30px;
 }
 
 .project-card {
@@ -105,11 +107,16 @@
 }
 
 
-@media (min-width:200px ) and (max-width:900px) {
-  .projects-container{
-    display: block;
-    justify-items: center;
-    align-items: center;
-    
+/* Medium screens: 2 columns */
+@media (max-width: 999px) {
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Small screens: 1 column */
+@media (max-width: 599px) {
+  .projects-container {
+    grid-template-columns: 1fr;
   }
 }
