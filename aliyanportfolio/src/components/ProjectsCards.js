@@ -6,7 +6,6 @@ import {
   faGithub,
   faDatabase,
   faMobileAlt,
-  faFileCode,
   faBrain
   // ...other icons
 } from '../utils/icons';
@@ -18,7 +17,8 @@ import {
   OpenCVIcon,
   DjangoIcon,
   LibrosaIcon,
-  CppIcon
+  CppIcon,
+  TensorFlowIcon
 } from '../utils/CustomIcons';
 
 
@@ -30,7 +30,6 @@ const toolIcons = {
   github: faGithub,
   flutter:faMobileAlt,
   sql:faDatabase,
-  tensorflow:faBrain,
   
 };
 const customToolIcons = {
@@ -41,7 +40,8 @@ const customToolIcons = {
   opencv: OpenCVIcon,
   django: DjangoIcon,
   librosa: LibrosaIcon,
-  cpp: CppIcon
+  cpp: CppIcon,
+  tensorflow:TensorFlowIcon,
 };
 
 
@@ -59,28 +59,36 @@ function ProjectCard({ project }) {
       <div className="tool-icons">
         <div className="tool-icons">
   {project.tools.map((tool) => {
+    const label = tool.charAt(0).toUpperCase() + tool.slice(1);
+    
     if (toolIcons[tool]) {
       return (
-        <FontAwesomeIcon
-          key={tool}
-          icon={toolIcons[tool]}
-          title={tool}
-          size="2x"
-          style={{ margin: '0 5px' }}
-        />
+        <div key={tool} className="tool-icon-wrapper">
+          <FontAwesomeIcon
+            icon={toolIcons[tool]}
+            size="2x"
+          />
+          <span className="tooltip">{label}</span>
+        </div>
       );
     } else if (customToolIcons[tool]) {
       const CustomIcon = customToolIcons[tool];
-      return <CustomIcon key={tool} />;
+      return (
+        <div key={tool} className="tool-icon-wrapper">
+          <CustomIcon />
+          <span className="tooltip">{label}</span>
+        </div>
+      );
     } else {
       return (
-        <img
-          key={tool}
-          src={`/icons/${tool}.png`}
-          alt={tool}
-          title={tool}
-          style={{ width: '30px', margin: '0 5px' }}
-        />
+        <div key={tool} className="tool-icon-wrapper">
+          <img
+            src={`/icons/${tool}.png`}
+            alt={tool}
+            style={{ width: '30px' }}
+          />
+          <span className="tooltip">{label}</span>
+        </div>
       );
     }
   })}

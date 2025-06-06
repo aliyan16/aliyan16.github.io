@@ -57,3 +57,67 @@ export const CppIcon = () => (
     <path d="M64 0L8 32v64l56 32 56-32V32L64 0zM56.86 92.07l-3.63-2.09c-.29-.17-.48-.48-.48-.82V38.84c0-.34.18-.65.48-.82l3.63-2.09a.95.95 0 01.95 0l3.63 2.09c.29.17.48.48.48.82v50.32c0 .34-.18.65-.48.82l-3.63 2.09a.95.95 0 01-.95 0zM84 67.5v5h-4v4h4v5h5v-5h4v-4h-4v-5h-5zM98 67.5v5h-4v4h4v5h5v-5h4v-4h-4v-5h-5z"/>
   </svg>
 );
+
+// Keras
+export const KerasIcon = () => (
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" alt="Keras" width="30" />
+);
+
+// TensorFlow
+export const TensorFlowIcon = () => (
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow" width="30" />
+);
+
+// scikit-learn
+export const ScikitLearnIcon = () => (
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="30" />
+);
+
+// NumPy
+export const NumpyIcon = () => (
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" alt="NumPy" width="30" />
+);
+
+// Pandas
+export const PandasIcon = () => (
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" alt="Pandas" width="30" />
+);
+
+// Matplotlib
+export const MatplotlibIcon = () => (
+  <img src="https://matplotlib.org/_static/images/logo2.svg" alt="Matplotlib" width="30" />
+);
+
+// Seaborn
+export const SeabornIcon = () => (
+  <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" alt="Seaborn" width="40" />
+);
+
+// Plotly
+export const PlotlyIcon = () => (
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Plotly-logo-01-square.png" alt="Plotly" width="30" />
+);
+
+// Dart
+export const DartIcon = () => (
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Dart-logo.png" alt="Dart" width="30" />
+);
+
+// MongoDB
+export const MongoDBIcon = () => (
+  <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png" alt="MongoDB" width="30" />
+);
+
+// Java
+export const JavaIcon = () => (
+  <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java" width="30" />
+);
+
+// OS Module (Generic gear icon)
+export const OSModuleIcon = () => (
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="gray">
+    <title>os module</title>
+    <path d="M19.43 12.98l.04-.32a8 8 0 00-.13-1.32l2.11-1.65a.5.5 0 00.11-.63l-2-3.46a.5.5 0 00-.6-.23l-2.49 1a7.963 7.963 0 00-1.5-.87l-.38-2.65a.5.5 0 00-.5-.42h-4a.5.5 0 00-.5.42l-.38 2.65a7.963 7.963 0 00-1.5.87l-2.49-1a.5.5 0 00-.6.23l-2 3.46a.5.5 0 00.11.63L4.7 11.34a8 8 0 000 2.66l-2.11 1.65a.5.5 0 00-.11.63l2 3.46a.5.5 0 00.6.23l2.49-1c.47.34.97.63 1.5.87l.38 2.65a.5.5 0 00.5.42h4a.5.5 0 00.5-.42l.38-2.65a7.963 7.963 0 001.5-.87l2.49 1a.5.5 0 00.6-.23l2-3.46a.5.5 0 00-.11-.63l-2.11-1.65z"/>
+  </svg>
+);
+
