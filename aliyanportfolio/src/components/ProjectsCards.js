@@ -6,7 +6,7 @@ import {
   faGithub,
   faDatabase,
   faMobileAlt,
-  faBrain
+  faFileCode
   // ...other icons
 } from '../utils/icons';
 import {
@@ -30,13 +30,13 @@ const toolIcons = {
   github: faGithub,
   flutter:faMobileAlt,
   sql:faDatabase,
+  mediapipe: faFileCode
   
 };
 const customToolIcons = {
   arduino: ArduinoIcon,
   esp32: ESP32Icon,
   raspberrypi: RaspberryPiIcon,
-  mediapipe: MediaPipeIcon,
   opencv: OpenCVIcon,
   django: DjangoIcon,
   librosa: LibrosaIcon,
