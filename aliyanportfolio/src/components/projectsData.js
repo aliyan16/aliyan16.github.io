@@ -1,6 +1,5 @@
 // src/components/projectsData.js
 
-
 const projects = [
   {
     id: 1,
@@ -42,14 +41,14 @@ const projects = [
     description: "Hand gesture and face detection using OpenCV and MediaPipe.",
     codeLink: "https://github.com/aliyan16/Real-time-hand-fingers-Counting-Using-OpenCV"
   },
-  {
-    id: 6,
-    title: "C++ Search Engine Project",
-    image: "../images/batbrowser.jpg", // <- Add a relevant image to /public/images/
-    tools: ["cpp", "data-structures", "graph", "dfs", "bfs"],
-    description: "A basic C++ search engine integrating caching, hyperlink graphs, and query handling using core data structures.",
-    codeLink: "https://github.com/aliyan16/Web-Browser-And-Search-Engine-Using-C-" // <- Replace with your actual repo URL
-  }
+  // {
+  //   id: 6,
+  //   title: "C++ Search Engine Project",
+  //   image: "/images/batbrowser.jpg", // <- Add a relevant image to /public/images/
+  //   tools: ["cpp", "data-structures", "graph", "dfs", "bfs"],
+  //   description: "A basic C++ search engine integrating caching, hyperlink graphs, and query handling using core data structures.",
+  //   codeLink: "https://github.com/aliyan16/Web-Browser-And-Search-Engine-Using-C-" // <- Replace with your actual repo URL
+  // }
   /// also add c++ browser project
 ];
 

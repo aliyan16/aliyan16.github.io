@@ -7,13 +7,11 @@ import {
   faDatabase,
   faMobileAlt,
   faFileCode
-  // ...other icons
 } from '../utils/icons';
 import {
   ArduinoIcon,
   ESP32Icon,
   RaspberryPiIcon,
-  MediaPipeIcon,
   OpenCVIcon,
   DjangoIcon,
   LibrosaIcon,
