@@ -121,3 +121,45 @@ export const OSModuleIcon = () => (
   </svg>
 );
 
+export const ExpressIconSVG = () => (
+  <svg width="30" height="30" viewBox="0 0 128 128" fill="#000000">
+    <title>Express.js</title>
+    <path d="M126.67 98.44c-4.56 1.16-13.74 1.75-20.38.17-4.06-1.03-8.77-3.84-10.58-6.13l-1.4-1.72-14.8 18.8c-1.1 1.4-2.2 2.06-3.06 2.06-.5 0-.92-.17-1.16-.52-.3-.4-.24-1.4.1-2.66l7.45-27.3-12.4-15.74-.72-.9c-.52-.6-1.3-.9-2.1-.9-.86 0-1.7.3-2.2.9l-13.1 16.6-6.3-44.2c-.1-.7-.3-1.2-.6-1.5-.34-.4-.86-.6-1.45-.6H32.5c-.82 0-1.5.68-1.5 1.5 0 .82.68 1.5 1.5 1.5h11.96l5.87 41.1 15.12-19.2c.6-.76 1.5-1.2 2.4-1.2.9 0 1.8.4 2.4 1.2l15.3 19.4 4.3-15.8c.3-1.1.8-1.8 1.4-2 .6-.2 1.6-.2 2.8.3l22.3 7.4c.82.28 1.36 1.04 1.36 1.9 0 .86-.54 1.62-1.36 1.9l-21.2 7.06-6.6 24.2c-.2.8-.1 1.5.2 1.9.4.5 1 .7 1.7.7.5 0 1-.1 1.4-.4l16.3-10.7 15.7 10.8c.4.2.8.4 1.3.4.3 0 .6-.1.9-.2.5-.3.9-.8 1-1.4l5.2-23.6c.1-.1.1-.2.1-.3v-.3c0-.5-.2-1-.6-1.3-.4-.3-.9-.5-1.5-.5zm-87.5-50.9c0-.82-.68-1.5-1.5-1.5H28.5c-.82 0-1.5.68-1.5 1.5 0 .82.68 1.5 1.5 1.5h9.17c.82 0 1.5-.68 1.5-1.5z"/>
+  </svg>
+);
+
+export const MERNIconText = () => (
+  <div style={{
+    width: '30px',
+    height: '30px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#20232A',
+    borderRadius: '5px',
+    color: '#FFF',
+    fontSize: '10px',
+    fontWeight: 'bold',
+    position: 'relative'
+  }}>
+    MERN
+    <span style={{
+      position: 'absolute',
+      bottom: '2px',
+      right: '2px',
+      width: '6px',
+      height: '6px',
+      backgroundColor: '#10AA50',
+      borderRadius: '50%'
+    }}></span>
+    <span style={{
+      position: 'absolute',
+      top: '2px',
+      left: '2px',
+      width: '6px',
+      height: '6px',
+      backgroundColor: '#61DAFB',
+      borderRadius: '50%'
+    }}></span>
+  </div>
+);
