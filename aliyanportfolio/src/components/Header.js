@@ -32,6 +32,7 @@ function Header() {
         <ul className={`nav-links ${menuActive ? 'active' : ''}`}>
           <li><Link to="/" onClick={() => setMenuActive(false)}>Home</Link></li>
           <li><Link to="/projects" onClick={() => setMenuActive(false)}>Projects</Link></li>
+          <li> <Link to='/services' onClick={()=> setMenuActive(false)} >Services</Link> </li>
           <li>
             <button className="download-btn" onClick={handleDownload}>
               Download Resume <FontAwesomeIcon icon={faDownload} className="download-icon" />
