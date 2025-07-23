@@ -41,6 +41,14 @@ const projects = [
     description: "Hand gesture and face detection using OpenCV and MediaPipe.",
     codeLink: "https://github.com/aliyan16/Real-time-hand-fingers-Counting-Using-OpenCV"
   },
+  {
+    id: 6,
+    title: "Mern Facebook Clone App",
+    image: "/images/Mern.png",
+    tools: ["mern"],
+    description: "Facebook Clone From scratch",
+    codeLink: "https://github.com/aliyan16/MERN-Full-Stack-App"
+  },
   // {
   //   id: 6,
   //   title: "C++ Search Engine Project",

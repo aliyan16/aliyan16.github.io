@@ -19,6 +19,8 @@ import {
   TensorFlowIcon
 } from '../utils/CustomIcons';
 
+import {MERNIconText} from '../utils/CustomIcons'
+
 
 
 const toolIcons = {
@@ -40,6 +42,7 @@ const customToolIcons = {
   librosa: LibrosaIcon,
   cpp: CppIcon,
   tensorflow:TensorFlowIcon,
+  mern:MERNIconText
 };
 
 
