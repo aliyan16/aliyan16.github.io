@@ -10,6 +10,15 @@ function Experience() {
             <div className="experience-grid">
                 <div className="experience-card">
                     <div className="experience-content">
+                        <img src='../../images/Zapply.png' alt="Comppec" className="experience-icon" />
+                        <div className="experience-details">
+                            <h4>Web Developer at Zapply</h4>
+                            <p>May 2025 - July 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="experience-card">
+                    <div className="experience-content">
                         <img src={FiverrImg} alt="Fiverr" className="experience-icon" />
                         <div className="experience-details">
                             <h4>Web Developer</h4>
@@ -37,6 +46,7 @@ function Experience() {
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     );
