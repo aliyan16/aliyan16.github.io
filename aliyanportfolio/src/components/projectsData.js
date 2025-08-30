@@ -3,6 +3,22 @@
 const projects = [
   {
     id: 1,
+    title: "MERN Facebook Clone App",
+    image: "/images/Mern.png",
+    tools: ["mern"],
+    description: "Facebook Clone From scratch",
+    codeLink: "https://github.com/aliyan16/MERN-Full-Stack-App"
+  },
+  {
+    id: 2,
+    title: "MERN Real-time Chat Application",
+    image: "/images/chatApp.png",
+    tools: ["mern"],
+    description: "Real time chat application",
+    codeLink: "https://github.com/aliyan16/MERN-Full-Stack-Real-Time-Chat-Application"
+  },
+  {
+    id: 3,
     title: "Autonomous Vehicle System",
     image: "../images/autonomous.png",
     tools: ["python", "opencv", "raspberrypi"],
@@ -10,7 +26,7 @@ const projects = [
     codeLink: "https://github.com/aliyan16/Autonomous-Vehicle-Classical-Image-Processing"
   },
   {
-    id: 2,
+    id: 4,
     title: "Mission Logging App",
     image: "/images/MLA1.png",
     tools: ["flutter", "django", "sql"],
@@ -18,7 +34,7 @@ const projects = [
     codeLink: "https://github.com/aliyan16/mission-tracking"
   },
   {
-    id: 3,
+    id: 5,
     title: "Anti-Sleep Detection System",
     image: "/images/mmd2.jpg",
     tools: ["arduino", "esp32", "opencv"],
@@ -26,15 +42,7 @@ const projects = [
     codeLink: "https://www.linkedin.com/posts/muhammad-aliyan-b0525b26b_automotive-black-box-with-incident-analysis-activity-7288215364172181505-2ReS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEIRLXUBNqn3izflLuzBbOK4tfkiIaZbzYE"
   },
   {
-    id: 4,
-    title: "Audio Classification with CNN",
-    image: "/images/audio.jpg",
-    tools: ["python", "tensorflow", "librosa"],
-    description: "Classified urban sound categories using CNNs and audio features.",
-    codeLink: "https://github.com/aliyan16/AudioClassificationUsingCNN"
-  },
-  {
-    id: 5,
+    id: 6,
     title: "Real-Time Face & Hand Detection",
     image: "/images/fingerCounting.png",
     tools: ["opencv", "mediapipe"],
@@ -42,13 +50,15 @@ const projects = [
     codeLink: "https://github.com/aliyan16/Real-time-hand-fingers-Counting-Using-OpenCV"
   },
   {
-    id: 6,
-    title: "Mern Facebook Clone App",
-    image: "/images/Mern.png",
-    tools: ["mern"],
-    description: "Facebook Clone From scratch",
-    codeLink: "https://github.com/aliyan16/MERN-Full-Stack-App"
+    id: 7,
+    title: "Audio Classification with CNN",
+    image: "/images/audio.jpg",
+    tools: ["python", "tensorflow", "librosa"],
+    description: "Classified urban sound categories using CNNs and audio features.",
+    codeLink: "https://github.com/aliyan16/AudioClassificationUsingCNN"
   },
+  
+  
   // {
   //   id: 6,
   //   title: "C++ Search Engine Project",

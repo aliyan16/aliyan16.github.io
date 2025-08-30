@@ -2,6 +2,7 @@ import React from "react";
 import FiverrImg from '../images/fiverr.png';
 import ComppecImg from '../images/comppec.png';
 import '../components/componentCss/Experience.css';
+import CareImg from '../images/care.png'
 
 function Experience() {
     return (
@@ -14,6 +15,15 @@ function Experience() {
                         <div className="experience-details">
                             <h4>Web Developer at Zapply</h4>
                             <p>May 2025 - July 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="experience-card">
+                    <div className="experience-content">
+                        <img src={CareImg} alt="Care" className="experience-icon" />
+                        <div className="experience-details">
+                            <h4>AL/ML Intern</h4>
+                            <p>March 2025 - May 2025</p>
                         </div>
                     </div>
                 </div>
