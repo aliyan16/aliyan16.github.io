@@ -3,6 +3,14 @@
 const projects = [
   {
     id: 1,
+    title: "Workify",
+    image: "/images/Workify.png",
+    tools: ["mern","vercel","render","redis","azure"],
+    description: "Freelancing Plateform live at https://work-ify.vercel.app/",
+    codeLink: "https://github.com/aliyan16/MERN-Freelancing-platform"
+  },
+  {
+    id: 2,
     title: "MERN Facebook Clone App",
     image: "/images/Mern.png",
     tools: ["mern"],
@@ -10,7 +18,7 @@ const projects = [
     codeLink: "https://github.com/aliyan16/MERN-Full-Stack-App"
   },
   {
-    id: 2,
+    id: 3,
     title: "MERN Real-time Chat Application",
     image: "/images/chatApp.png",
     tools: ["mern"],
@@ -18,7 +26,7 @@ const projects = [
     codeLink: "https://github.com/aliyan16/MERN-Full-Stack-Real-Time-Chat-Application"
   },
   {
-    id: 3,
+    id: 4,
     title: "Autonomous Vehicle System",
     image: "../images/autonomous.png",
     tools: ["python", "opencv", "raspberrypi"],
@@ -26,7 +34,7 @@ const projects = [
     codeLink: "https://github.com/aliyan16/Autonomous-Vehicle-Classical-Image-Processing"
   },
   {
-    id: 4,
+    id: 5,
     title: "Mission Logging App",
     image: "/images/MLA1.png",
     tools: ["flutter", "django", "sql"],
@@ -34,7 +42,7 @@ const projects = [
     codeLink: "https://github.com/aliyan16/mission-tracking"
   },
   {
-    id: 5,
+    id: 6,
     title: "Anti-Sleep Detection System",
     image: "/images/mmd2.jpg",
     tools: ["arduino", "esp32", "opencv"],
@@ -42,7 +50,7 @@ const projects = [
     codeLink: "https://www.linkedin.com/posts/muhammad-aliyan-b0525b26b_automotive-black-box-with-incident-analysis-activity-7288215364172181505-2ReS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEIRLXUBNqn3izflLuzBbOK4tfkiIaZbzYE"
   },
   {
-    id: 6,
+    id: 7,
     title: "Real-Time Face & Hand Detection",
     image: "/images/fingerCounting.png",
     tools: ["opencv", "mediapipe"],
@@ -50,7 +58,7 @@ const projects = [
     codeLink: "https://github.com/aliyan16/Real-time-hand-fingers-Counting-Using-OpenCV"
   },
   {
-    id: 7,
+    id: 8,
     title: "Audio Classification with CNN",
     image: "/images/audio.jpg",
     tools: ["python", "tensorflow", "librosa"],

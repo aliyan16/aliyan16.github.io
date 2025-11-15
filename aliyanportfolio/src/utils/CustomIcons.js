@@ -127,6 +127,72 @@ export const ExpressIconSVG = () => (
     <path d="M126.67 98.44c-4.56 1.16-13.74 1.75-20.38.17-4.06-1.03-8.77-3.84-10.58-6.13l-1.4-1.72-14.8 18.8c-1.1 1.4-2.2 2.06-3.06 2.06-.5 0-.92-.17-1.16-.52-.3-.4-.24-1.4.1-2.66l7.45-27.3-12.4-15.74-.72-.9c-.52-.6-1.3-.9-2.1-.9-.86 0-1.7.3-2.2.9l-13.1 16.6-6.3-44.2c-.1-.7-.3-1.2-.6-1.5-.34-.4-.86-.6-1.45-.6H32.5c-.82 0-1.5.68-1.5 1.5 0 .82.68 1.5 1.5 1.5h11.96l5.87 41.1 15.12-19.2c.6-.76 1.5-1.2 2.4-1.2.9 0 1.8.4 2.4 1.2l15.3 19.4 4.3-15.8c.3-1.1.8-1.8 1.4-2 .6-.2 1.6-.2 2.8.3l22.3 7.4c.82.28 1.36 1.04 1.36 1.9 0 .86-.54 1.62-1.36 1.9l-21.2 7.06-6.6 24.2c-.2.8-.1 1.5.2 1.9.4.5 1 .7 1.7.7.5 0 1-.1 1.4-.4l16.3-10.7 15.7 10.8c.4.2.8.4 1.3.4.3 0 .6-.1.9-.2.5-.3.9-.8 1-1.4l5.2-23.6c.1-.1.1-.2.1-.3v-.3c0-.5-.2-1-.6-1.3-.4-.3-.9-.5-1.5-.5zm-87.5-50.9c0-.82-.68-1.5-1.5-1.5H28.5c-.82 0-1.5.68-1.5 1.5 0 .82.68 1.5 1.5 1.5h9.17c.82 0 1.5-.68 1.5-1.5z"/>
   </svg>
 );
+export const RedisIcon = () => (
+  <svg
+    width="30px" // Matching the style used for fallback images
+    height="30px"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    {/* Actual Redis logo path - example path */}
+    <path
+      d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM14.5 16H9.5C8.67 16 8 15.33 8 14.5V9.5C8 8.67 8.67 8 9.5 8H14.5C15.33 8 16 8.67 16 9.5V14.5C16 15.33 15.33 16 14.5 16Z"
+      fill="#D82C20" // Redis Red
+    />
+  </svg>
+);
+
+// 2. Vercel Icon
+export const VercelIcon = () => (
+  <svg
+    width="30px"
+    height="30px"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    {/* Actual Vercel logo path - example path */}
+    <path
+      d="M24 22.5L12 2.5L0 22.5H24Z"
+      fill="black"
+    />
+  </svg>
+);
+
+// 3. Render Icon
+export const RenderIcon = () => (
+  <svg
+    width="30px"
+    height="30px"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    {/* Actual Render logo path - example path */}
+    <path
+      d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z"
+      fill="#0099EE" // Render blue
+    />
+  </svg>
+);
+
+// 4. Azure Icon
+export const AzureIcon = () => (
+  <svg
+    width="30px"
+    height="30px"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    {/* Actual Azure logo path - example path */}
+    <path
+      d="M12 1L0 7L12 13L24 7L12 1ZM0 17L12 23L24 17V12L12 18L0 12V17Z"
+      fill="#0078D4" // Azure blue
+    />
+  </svg>
+);
 
 export const MERNIconText = () => (
   <div style={{

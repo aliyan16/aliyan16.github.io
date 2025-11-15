@@ -16,7 +16,11 @@ import {
   DjangoIcon,
   LibrosaIcon,
   CppIcon,
-  TensorFlowIcon
+  TensorFlowIcon,
+  AzureIcon,
+  VercelIcon,
+  RenderIcon,
+  RedisIcon
 } from '../utils/CustomIcons';
 import { MERNIconText } from '../utils/CustomIcons';
 
@@ -39,7 +43,11 @@ const customToolIcons = {
   librosa: LibrosaIcon,
   cpp: CppIcon,
   tensorflow: TensorFlowIcon,
-  mern: MERNIconText
+  mern: MERNIconText,
+  azure: AzureIcon,
+  vercel: VercelIcon,
+  render: RenderIcon,
+  redis: RedisIcon
 };
 
 function ProjectCard({ project }) {
