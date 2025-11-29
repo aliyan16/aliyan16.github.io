@@ -56,7 +56,7 @@ function Experience() {
                     </div>
                 </div>
                 
-                <div className="experience-card">
+                {/* <div className="experience-card">
                     <div className="experience-content">
                         <img src={ComppecImg} alt="Comppec" className="experience-icon" />
                         <div className="experience-details">
@@ -64,7 +64,7 @@ function Experience() {
                             <p>Jan 2024 - Jun 2024</p>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 
             </div>
         </div>
