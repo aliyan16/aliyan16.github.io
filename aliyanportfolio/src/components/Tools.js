@@ -89,6 +89,7 @@ function Tools() {
           <h3><FontAwesomeIcon icon={faDatabase} /> Databases & Backend</h3>
           <ul>
             <SkillItem icon={<FontAwesomeIcon icon={faDatabase} />} label="SQL (MySQL, PostgreSQL)" />
+            <SkillItem icon={<FontAwesomeIcon icon={faDatabase} />} label="SupaBase" />
             <SkillItem icon={<MongoDBIcon />} label="MongoDB" />
             <SkillItem icon={<FontAwesomeIcon icon={faFileCode} />} label="HTTP/API Integration" />
           </ul>
