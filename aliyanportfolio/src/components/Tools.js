@@ -26,6 +26,7 @@ import {
 } from '../utils/icons'; // Adjust path as needed
 
 import {TensorFlowIcon,KerasIcon,LibrosaIcon,OpenCVIcon,NumpyIcon,ScikitLearnIcon,PandasIcon,MatplotlibIcon,SeabornIcon,DartIcon,MongoDBIcon,JavaIcon,OSModuleIcon,CppIcon} from '../utils/CustomIcons'
+
 const SkillItem = ({ icon, label }) => (
   <li>
     <span className="skill-icon" title={label}>
@@ -34,6 +35,7 @@ const SkillItem = ({ icon, label }) => (
     {label}
   </li>
 );
+
 function Tools() {
   return (
     <div className="tools-section" id="skills">
@@ -108,9 +110,20 @@ function Tools() {
           <h3><FontAwesomeIcon icon={faCogs} /> MLOps & Model Deployment</h3>
           <ul>
             <SkillItem icon={<FontAwesomeIcon icon={faVial} />} label="MLflow" />
-            <SkillItem icon={<FontAwesomeIcon icon={faDocker} />} label="Docker (Learning)" />
+            <SkillItem icon={<FontAwesomeIcon icon={faDocker} />} label="Docker" />
             <SkillItem icon={<FontAwesomeIcon icon={faCogs} />} label="CI/CD Pipelines" />
             <SkillItem icon={<FontAwesomeIcon icon={faCloud} />} label="Model Monitoring & Deployment" />
+          </ul>
+        </div>
+
+        <div className="skills-category">
+          <h3><FontAwesomeIcon icon={faCloud} /> Cloud & Deployment Platforms</h3>
+          <ul>
+            <SkillItem icon={<FontAwesomeIcon icon={faCloud} />} label="Vercel" />
+            <SkillItem icon={<FontAwesomeIcon icon={faCloud} />} label="Render" />
+            <SkillItem icon={<FontAwesomeIcon icon={faCloud} />} label="Azure Blob Storage" />
+            <SkillItem icon={<FontAwesomeIcon icon={faDatabase} />} label="MongoDB Atlas" />
+            <SkillItem icon={<FontAwesomeIcon icon={faDatabase} />} label="Redis Cloud" />
           </ul>
         </div>
 
@@ -128,4 +141,5 @@ function Tools() {
     </div>
   );
 }
+
 export default Tools;
