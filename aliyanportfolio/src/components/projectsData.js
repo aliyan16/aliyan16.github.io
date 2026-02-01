@@ -4,7 +4,7 @@ const projects = [
   {
     id: 1,
     title: "Workify",
-    image: "/images/Workify.png",
+    image: "/images/workify.png",
     tools: ["mern","vercel","render","redis","azure"],
     description: "Freelancing Plateform live at https://work-ify.vercel.app/",
     codeLink: "https://github.com/aliyan16/MERN-Freelancing-platform"
