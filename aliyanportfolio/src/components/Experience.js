@@ -9,12 +9,21 @@ function Experience() {
         <div className="experience-container">
             <h3>Experience</h3>
             <div className="experience-grid">
+                <div className="experience-card">
+                    <div className="experience-content">
+                        <img src='../../images/Zapply.png' alt="Zapply" className="experience-icon" />
+                        <div className="experience-details">
+                            <h4>Full Stack Developer at Zapply (Full-Time)</h4>
+                            <p>Nov 2025 - Present</p>
+                        </div>
+                    </div>
+                </div>
                  <div className="experience-card">
                     <div className="experience-content">
                         <img src='../../images/3dim_engineering_solutions_logo.jpg' alt="3Dim" className="experience-icon" />
                         <div className="experience-details">
-                            <h4>Full Stack Developer at 3Dim</h4>
-                            <p>August 2025 - present</p>
+                            <h4>Full Stack Developer at 3Dim (Full-Time)</h4>
+                            <p>August 2025 - Nov 2025</p>
                         </div>
                     </div>
                 </div>
@@ -22,7 +31,7 @@ function Experience() {
                     <div className="experience-content">
                         <img src='../../images/Zapply.png' alt="Zapply" className="experience-icon" />
                         <div className="experience-details">
-                            <h4>Full Stack Developer at Zapply</h4>
+                            <h4>Full Stack Developer at Zapply (Intern)</h4>
                             <p>May 2025 - August 2025</p>
                         </div>
                     </div>
@@ -32,7 +41,7 @@ function Experience() {
                         <img src={CareImg} alt="Care" className="experience-icon" />
                         <div className="experience-details">
                             <h4>AL/ML Intern</h4>
-                            <p>March 2025 - August 2025</p>
+                            <p>May 2025 - July 2025</p>
                         </div>
                     </div>
                 </div>

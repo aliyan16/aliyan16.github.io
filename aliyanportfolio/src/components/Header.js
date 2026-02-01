@@ -8,10 +8,10 @@ function Header() {
   const [menuActive, setMenuActive] = useState(false);
 
   const handleDownload = () => {
-    const resumeUrl = '/M.AliyanResume.pdf';
+    const resumeUrl = '/Aliyan_Resume.pdf';
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = 'M.AliyanResume.pdf';
+    link.download = 'Aliyan_Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
