@@ -1,5 +1,5 @@
 .layout {
-  background-color: black;
-  color: white;
+  background: radial-gradient(circle at 15% 10%, #102a43 0%, #0b1324 45%, #070b14 100%);
+  color: #eef2ff;
   min-height: 100vh;
 }

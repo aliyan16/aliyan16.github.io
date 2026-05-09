@@ -43,6 +43,23 @@ function Tools() {
 
       <div className="skills-grid">
         <div className="skills-category">
+          <h3><FontAwesomeIcon icon={faCogs} /> Embedded Systems & Hardware</h3>
+          <ul>
+            <SkillItem icon={<OSModuleIcon />} label="Embedded Systems" />
+            <SkillItem icon={<CppIcon />} label="Hardware Interfacing" />
+            <SkillItem icon={<FontAwesomeIcon icon={faFileCode} />} label="Verilog HDL" />
+            <SkillItem icon={<FontAwesomeIcon icon={faFileCode} />} label="FPGA Design" />
+            <SkillItem icon={<FontAwesomeIcon icon={faCogs} />} label="Xilinx Vivado" />
+            <SkillItem icon={<FontAwesomeIcon icon={faCogs} />} label="Proteus" />
+            <SkillItem icon={<FontAwesomeIcon icon={faCogs} />} label="Multicycle Pipeline Design" />
+            <SkillItem icon={<FontAwesomeIcon icon={faCogs} />} label="Single Cycle Architecture" />
+            <SkillItem icon={<FontAwesomeIcon icon={faCogs} />} label="Arduino" />
+            <SkillItem icon={<FontAwesomeIcon icon={faCogs} />} label="ESP32" />
+            <SkillItem icon={<FontAwesomeIcon icon={faCogs} />} label="Raspberry Pi" />
+          </ul>
+        </div>
+
+        <div className="skills-category">
           <h3><FontAwesomeIcon icon={faBrain} /> Machine Learning & Deep Learning</h3>
           <ul>
             <SkillItem icon={<FontAwesomeIcon icon={faPython} />} label="Python" />

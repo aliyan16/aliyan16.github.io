@@ -102,18 +102,19 @@ function ProjectCard({ project }) {
       <style jsx>{`
         .project-card {
           width: 300px;
-          border-radius: 10px;
+          border-radius: 16px;
           overflow: hidden;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          border: 1px solid rgba(148, 163, 184, 0.24);
+          box-shadow: 0 14px 32px rgba(2, 6, 23, 0.28);
           transition: transform 0.3s ease;
-          background: white;
+          background: linear-gradient(170deg, rgba(15, 23, 42, 0.9), rgba(30, 41, 59, 0.82));
           margin: 15px;
           margin-top: 90px;
         }
         
         .project-card:hover {
           transform: translateY(-5px);
-          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 20px 40px rgba(14, 165, 233, 0.2);
         }
         
         .card-image {
@@ -140,7 +141,7 @@ function ProjectCard({ project }) {
           left: 0;
           width: 100%;
           height: 100%;
-          background: rgba(0, 0, 0, 0.7);
+          background: rgba(2, 6, 23, 0.82);
           color: white;
           display: flex;
           flex-direction: column;
@@ -163,18 +164,18 @@ function ProjectCard({ project }) {
         }
         
         .card-hover a {
-          color: #4fc3f7;
+          color: #7dd3fc;
           text-decoration: none;
           font-weight: bold;
           padding: 8px 15px;
-          border: 1px solid #4fc3f7;
+          border: 1px solid #7dd3fc;
           border-radius: 4px;
           transition: background 0.3s ease;
         }
         
         .card-hover a:hover {
-          background: #4fc3f7;
-          color: white;
+          background: #0ea5e9;
+          color: #f8fafc;
         }
         
         .project-card h3 {
@@ -182,7 +183,7 @@ function ProjectCard({ project }) {
           margin: 0;
           text-align: center;
           font-size: 18px;
-          color: #333;
+          color: #f8fafc;
         }
         
         .tool-icons {
@@ -213,7 +214,7 @@ function ProjectCard({ project }) {
           opacity: 0;
           position: absolute;
           top: -10px;
-          background: #333;
+          background: #0f172a;
           color: white;
           padding: 5px 10px;
           border-radius: 4px;
