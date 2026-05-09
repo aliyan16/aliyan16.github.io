@@ -1,7 +1,35 @@
-.Projects-page h4{
-    padding-top: 200px;
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 2rem;
-    color: #ffffff;
+:root {
+  --bg-0: #070b14;
+  --bg-1: #0b1324;
+  --bg-2: #102a43;
+  --text-0: #f8fafc;
+  --text-1: #dbeafe;
+  --line: rgba(148, 163, 184, 0.24);
+  --card-1: rgba(15, 23, 42, 0.86);
+  --card-2: rgba(30, 41, 59, 0.7);
+  --accent: #0ea5e9;
+  --accent-2: #2563eb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: "Segoe UI", "Inter", "Poppins", sans-serif;
+  color: var(--text-0);
+  background: radial-gradient(circle at 15% 10%, var(--bg-2) 0%, var(--bg-1) 45%, var(--bg-0) 100%);
+}
+
+a {
+  color: inherit;
+}
+
+main {
+  padding-top: 92px;
 }

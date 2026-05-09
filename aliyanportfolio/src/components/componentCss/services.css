@@ -1,3 +1,10 @@
+.services-category p {
+    color: #dbeafe;
+    line-height: 1.75;
+    margin: 0 0 14px;
+}
+
 .services-category ul li{
-    font-size: small;
+    font-size: 0.94rem;
+    line-height: 1.55;
 }

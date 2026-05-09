@@ -71,7 +71,7 @@ function ProjectCard({ project }) {
                 <FontAwesomeIcon
                   icon={toolIcons[tool]}
                   size="2x"
-                  color='black'
+                  color='#dbeafe'
                 />
                 <span className="tooltip">{label}</span>
               </div>
@@ -101,15 +101,14 @@ function ProjectCard({ project }) {
       
       <style jsx>{`
         .project-card {
-          width: 300px;
+          width: min(100%, 340px);
           border-radius: 16px;
           overflow: hidden;
           border: 1px solid rgba(148, 163, 184, 0.24);
           box-shadow: 0 14px 32px rgba(2, 6, 23, 0.28);
           transition: transform 0.3s ease;
           background: linear-gradient(170deg, rgba(15, 23, 42, 0.9), rgba(30, 41, 59, 0.82));
-          margin: 15px;
-          margin-top: 90px;
+          margin: 8px;
         }
         
         .project-card:hover {
@@ -201,6 +200,7 @@ function ProjectCard({ project }) {
           align-items: center;
           width: 40px;
           height: 40px;
+          color: #dbeafe;
         }
         
         .tool-icon-wrapper:hover .tooltip {
@@ -235,7 +235,7 @@ function ProjectCard({ project }) {
           border-style: solid;
           padding:5px;
           height: 5px;
-          border-color: #333 transparent transparent transparent;
+          border-color: #0f172a transparent transparent transparent;
         }
       `}</style>
     </div>

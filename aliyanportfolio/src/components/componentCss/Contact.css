@@ -1,51 +1,63 @@
 .Contact-div {
-    padding: 20px;
-    max-width: 1200px;
+    padding: 40px 20px 56px;
+    max-width: 980px;
     margin: 0 auto;
-    color: black;
+    color: #e2e8f0;
 }
 
 .Contact-div h3 {
     text-align: center;
-    margin-bottom: 30px;
-    font-size: 2rem;
-    color: #ffffff;
+    margin-bottom: 24px;
+    font-size: clamp(1.8rem, 2.8vw, 2.5rem);
+    color: #f8fafc;
 }
 .Contact-div .Contact-grid .Contact-card .Contact-content ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
 } 
 
 .Contact-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
     justify-content: center;
 }
 
 .Contact-card {
-    /* background-color: rgb(240, 248, 255); */
-    border-radius: 10px;
-    padding: 20px;
+    background: linear-gradient(160deg, rgba(15, 23, 42, 0.82), rgba(30, 41, 59, 0.62));
+    border: 1px solid rgba(148, 163, 184, 0.24);
+    border-radius: 14px;
+    padding: 18px;
+    min-height: 102px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.Contact-card .Contact-content ul li a :hover {
+.Contact-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    color:gold;
+    box-shadow: 0 16px 30px rgba(14, 165, 233, 0.18);
+}
+
+.Contact-card .Contact-content ul li a {
+    color: #dbeafe;
+}
+
+.Contact-card .Contact-content ul li a:hover {
+    color: #38bdf8;
 }
 
 .Contact-content {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 15px;
 }
 
 /* For very small screens (200px-399px) */
 @media (min-width: 200px) and (max-width: 399px) {
     .Contact-grid {
-        grid-template-columns: repeat(3, 1fr); /* 3 columns */
-        gap: 8px; /* Smaller gap */
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
     
     .Contact-card {
@@ -54,8 +66,8 @@
     }
     
     .Contact-content {
-        flex-direction: column; /* Stack icon and text vertically */
-        gap: 5px; /* Smaller gap */
+        flex-direction: column;
+        gap: 5px;
         text-align: center;
     }
     
@@ -71,6 +83,6 @@
 /* For medium-small screens (400px-599px) */
 @media (min-width: 400px) and (max-width: 599px) {
     .Contact-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+        grid-template-columns: repeat(2, 1fr);
     }
 }

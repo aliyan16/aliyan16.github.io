@@ -1,49 +1,92 @@
 
-/* About Component Styles */
 .about-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 50px;
-  gap: 20px;
-  padding-top: 150px;
+  align-items: stretch;
+  justify-content: center;
+  gap: 26px;
+  padding: 28px 20px 36px;
+  max-width: 1180px;
+  margin: 0 auto;
 }
 
 .about-text-container {
-  flex: 1;
-  text-align: center;
-  max-width: 600px;
-  padding-top: 50px;
+  flex: 1.1;
+  background: linear-gradient(160deg, rgba(15, 23, 42, 0.82), rgba(30, 41, 59, 0.58));
+  border: 1px solid rgba(148, 163, 184, 0.26);
+  border-radius: 22px;
+  box-shadow: 0 16px 32px rgba(2, 6, 23, 0.28);
+  padding: clamp(22px, 3.3vw, 34px);
+}
+
+.about-eyebrow {
+  margin: 0 0 8px;
+  color: #7dd3fc;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 .about-text-container h3{
-  font-size: xx-large;
+  margin: 0 0 10px;
+  font-size: clamp(1.8rem, 2.8vw, 2.6rem);
+  line-height: 1.2;
+}
+
+.about-text-container hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(56, 189, 248, 0.9), rgba(56, 189, 248, 0.05));
+  margin: 12px 0 18px;
 }
 .about-text-container p{
-  font-size: larger;
+  margin: 0;
+  color: #dbeafe;
+  line-height: 1.85;
+  font-size: clamp(0.97rem, 1.35vw, 1.08rem);
 }
 
 .about-image-container {
-  flex: 1;
+  flex: 0.95;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -150px;
+}
+
+.about-image-frame {
+  position: relative;
+  width: min(420px, 90vw);
+  padding: 10px;
+  border-radius: 26px;
+  border: 1px solid rgba(56, 189, 248, 0.35);
+  background: linear-gradient(150deg, rgba(14, 165, 233, 0.16), rgba(37, 99, 235, 0.1));
+  box-shadow: 0 22px 40px rgba(2, 6, 23, 0.35);
 }
 
 .about-image {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  display: block;
+  border-radius: 18px;
+  border: 1px solid rgba(148, 163, 184, 0.26);
+  box-shadow: 0 10px 24px rgba(2, 6, 23, 0.3);
+  object-fit: cover;
 }
 
-/* Media query for larger screens */
 @media (min-width: 768px) {
   .about-container {
     flex-direction: row;
+    align-items: center;
+    gap: 28px;
+    padding: 44px 24px 34px;
   }
-  
+}
+
+@media (max-width: 767px) {
   .about-text-container {
-    text-align: left;
+    order: 2;
+  }
+
+  .about-image-container {
+    order: 1;
   }
 }
