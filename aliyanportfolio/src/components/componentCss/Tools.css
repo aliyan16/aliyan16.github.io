@@ -4,8 +4,8 @@
     padding: 90px 20px; /* More padding top/bottom */
     max-width: 1200px; /* Allow more width for 2 columns */
     margin: 0 auto;
-    background-color: #000000; /* Dark background */
-    color: #f0f0f0; /* White text */
+    background: transparent;
+    color: #e2e8f0;
     min-height: 100vh; /* Ensure it takes full viewport height */
     box-sizing: border-box; /* Include padding in element's total width and height */
 }
@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 50px; /* More space below heading */
-    color: #ffffff; /* Accent color for main heading */
+    color: #f8fafc;
     font-size: 2.5em; /* Larger heading */
 }
 
@@ -29,34 +29,34 @@
 /* Individual skill category box */
 .skills-category {
     margin-bottom: 0; /* Reset margin from previous example */
-    border: 1px solid #444; /* Darker grey border */
+    border: 1px solid rgba(148, 163, 184, 0.28);
     border-radius: 12px; /* Slightly more rounded corners */
     padding: 25px; /* More padding inside */
-    background-color: #000000; /* Slightly lighter dark background for cards */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Darker shadow */
+    background: linear-gradient(160deg, rgba(15, 23, 42, 0.78), rgba(30, 41, 59, 0.5));
+    box-shadow: 0 14px 28px rgba(2, 6, 23, 0.28);
     transition: transform 0.2s ease-in-out; /* Smooth hover effect */
 }
 
 .skills-category:hover {
     transform: translateY(-5px); /* Lift card on hover */
-    box-shadow: 0 4px 10px gold; /* Darker shadow */
+    box-shadow: 0 12px 32px rgba(14, 165, 233, 0.25);
     cursor: pointer;
 }
 
 .skills-category h3 {
-    color: #ffffff; /* Green accent color for subheadings */
+    color: #f8fafc;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
     gap: 12px; /* Space between icon and text */
     font-size: 1.6em; /* Larger subheading */
-    border-bottom: 1px solid #4CAF50; /* Underline effect */
+    border-bottom: 1px solid rgba(56, 189, 248, 0.55);
     padding-bottom: 10px;
 }
 .skills-category h3:hover,
 .skills-category h3:hover svg{
-    color: gold;
-    fill: gold;
+    color: #38bdf8;
+    fill: #38bdf8;
 }
 
 .skills-category ul {
@@ -71,18 +71,18 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    background-color: #3a3a3a; /* Darker background for skill tags */
+    background: rgba(148, 163, 184, 0.18);
     padding: 10px 18px; /* More padding for tags */
     border-radius: 25px; /* More rounded pill shape */
-    color: #e0e0e0; /* Lighter text for tags */
+    color: #dbeafe;
     font-size: 1em;
-    border: 1px solid #555; /* Slightly lighter grey border for tags */
+    border: 1px solid rgba(148, 163, 184, 0.3);
     white-space: nowrap; /* Prevent tags from breaking text */
 }
 .skills-category li:hover{
-    background-color: gold;
+    background: linear-gradient(135deg, #0ea5e9, #2563eb);
     cursor: pointer;
-    color: #000000;
+    color: #f8fafc;
 }
 .skill-icon {
   display: inline-block;

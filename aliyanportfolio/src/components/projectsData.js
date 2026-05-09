@@ -3,6 +3,30 @@
 const projects = [
   {
     id: 1,
+    title: "Final Year Project (FYP): Embedded System Solution",
+    image: "/images/FYP.png",
+    tools: ["arduino", "esp32", "raspberrypi", "cpp"],
+    description: "Capstone embedded hardware/software project focused on real-world system integration and reliability.",
+    codeLink: "https://github.com/aliyan16/picorv32-aes-co-processor"
+  },
+  {
+    id: 2,
+    title: "Multicycle Pipeline Processor Design",
+    image: "/images/multicycle.png",
+    tools: ["cpp", "github"],
+    description: "Designed and verified a multicycle pipelined processor architecture with staged execution and control logic.",
+    codeLink: "https://github.com/aliyan16/Single-Cycle-Pipeline-Processor-with-All-Hazards"
+  },
+  {
+    id: 3,
+    title: "Single Cycle Processor Design",
+    image: "/images/single.png",
+    tools: ["cpp", "github"],
+    description: "Implemented a single-cycle processor datapath and control flow model for foundational computer architecture analysis.",
+    codeLink: "https://github.com/aliyan16/Single-Cycle-Pipeline-Processor-with-All-Hazards"
+  },
+  {
+    id: 4,
     title: "Workify",
     image: "/images/workify.png",
     tools: ["mern","vercel","render","redis","azure"],
@@ -10,7 +34,7 @@ const projects = [
     codeLink: "https://github.com/aliyan16/MERN-Freelancing-platform"
   },
   {
-    id: 2,
+    id: 5,
     title: "MERN Facebook Clone App",
     image: "/images/Mern.png",
     tools: ["mern"],
@@ -18,7 +42,7 @@ const projects = [
     codeLink: "https://github.com/aliyan16/MERN-Full-Stack-App"
   },
   {
-    id: 3,
+    id: 6,
     title: "MERN Real-time Chat Application",
     image: "/images/chatApp.png",
     tools: ["mern"],
@@ -26,7 +50,7 @@ const projects = [
     codeLink: "https://github.com/aliyan16/MERN-Full-Stack-Real-Time-Chat-Application"
   },
   {
-    id: 4,
+    id: 7,
     title: "Autonomous Vehicle System",
     image: "../images/autonomous.png",
     tools: ["python", "opencv", "raspberrypi"],
@@ -34,7 +58,7 @@ const projects = [
     codeLink: "https://github.com/aliyan16/Autonomous-Vehicle-Classical-Image-Processing"
   },
   {
-    id: 5,
+    id: 8,
     title: "Mission Logging App",
     image: "/images/MLA1.png",
     tools: ["flutter", "django", "sql"],
@@ -42,7 +66,7 @@ const projects = [
     codeLink: "https://github.com/aliyan16/mission-tracking"
   },
   {
-    id: 6,
+    id: 9,
     title: "Anti-Sleep Detection System",
     image: "/images/mmd2.jpg",
     tools: ["arduino", "esp32", "opencv"],
@@ -50,7 +74,7 @@ const projects = [
     codeLink: "https://www.linkedin.com/posts/muhammad-aliyan-b0525b26b_automotive-black-box-with-incident-analysis-activity-7288215364172181505-2ReS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEIRLXUBNqn3izflLuzBbOK4tfkiIaZbzYE"
   },
   {
-    id: 7,
+    id: 10,
     title: "Real-Time Face & Hand Detection",
     image: "/images/fingerCounting.png",
     tools: ["opencv", "mediapipe"],
@@ -58,7 +82,7 @@ const projects = [
     codeLink: "https://github.com/aliyan16/Real-time-hand-fingers-Counting-Using-OpenCV"
   },
   {
-    id: 8,
+    id: 11,
     title: "Audio Classification with CNN",
     image: "/images/audio.jpg",
     tools: ["python", "tensorflow", "librosa"],

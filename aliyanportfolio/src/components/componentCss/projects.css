@@ -3,6 +3,7 @@
   grid-template-columns: repeat(3, 1fr); /* default: 3 columns */
   gap: 24px;
   padding: 30px;
+  justify-items: center;
 }
 
 .project-card {
